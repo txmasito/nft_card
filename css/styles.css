@@ -8,8 +8,8 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Lexend Deca', sans-serif;
-    color: white;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
     font-size: 14px;
     /* position: relative; */
     display: flex;
@@ -90,6 +90,17 @@ h1{
     width: 260px;
     margin-bottom: 10px;
     font-weight: 600;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
 }
 
 .descripcion{
@@ -164,7 +175,18 @@ h1{
 }
 
 span{
-    color: hsl(215, 51%, 70%);
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    /*color: hsl(215, 51%, 70%);*/
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+span:hover{
+    color: hsl(178, 100%, 50%);
 }
 
 .links{
@@ -180,4 +202,29 @@ span{
 .linkedin{
     margin-left: 5px;
     margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.linkedin:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.github{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.github:hover{
+    color: hsl(178, 100%, 50%);
 }
